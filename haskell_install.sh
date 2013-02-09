@@ -4,6 +4,9 @@
 # This script will download, install and configure Haskell on NexentaStor or NexentaOS
 # and automatically fetch all dependencies from the repos.
 #
+# Author: Kirill.Davydychev@Nexenta.com
+# Copyright 2013, Nexenta Systems, Inc.
+#
 
 mkdir /var/tmp/haskell
 cd /var/tmp/haskell
