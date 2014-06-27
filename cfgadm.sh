@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 # Author: Kirill.Davydychev@Nexenta.com
 # Workaround for issue NEX-2074
+# Replace /usr/sbin/cfgadm with this script; move original cfgadm to cfgadm.orig
 
 if [ "$1" == "-c" ]
 then
