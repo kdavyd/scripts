@@ -1,4 +1,6 @@
 #!/usr/bin/bash
+# Author: Kirill.Davydychev@Nexenta.com
+# Workaround for issue NEX-2074
 
 if [ "$1" == "-c" ]
 then
