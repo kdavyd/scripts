@@ -1,8 +1,7 @@
 #!/bin/bash
 
-yum install -y nano perf lsscsi screen
 yum install epel-release -y
-yum install -y pssh atop mosh cloud-utils-growpart python-pip wget tmux
+yum install -y pssh atop mosh cloud-utils-growpart python-pip wget tmux nano perf lsscsi screen expect expect-devel
 pip install --upgrade --user awscli
 ln -s /root/.local/bin/aws /usr/bin
 mkdir ~/cosbench && cd ~/cosbench && wget https://github.com/intel-cloud/cosbench/releases/download/v0.4.2.c4/0.4.2.c4.zip && unzip 0.4.2.c4.zip
